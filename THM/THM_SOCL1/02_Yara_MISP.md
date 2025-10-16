@@ -21,3 +21,7 @@
 **Screenshots:**  
 - `Screenshots/yara_rule.png`  
 - `Screenshots/misp_event.png`
+
+
+
+<img width="2487" height="1272" alt="image" src="https://github.com/user-attachments/assets/6d6e7b06-957b-4a6e-99f1-c761626f8876" />
