@@ -1,0 +1,23 @@
+# Threat Intelligence – Yara & MISP
+
+**Source:** TryHackMe SOC Level 1 – Module: Cyber Threat Intelligence  
+**Room(s):** Yara (14), MISP (16)
+
+**Objective:** Detect threats using Yara rules and analyze intelligence in MISP.
+
+**Steps Performed:**
+1. Created a Yara rule to detect suspicious binaries.
+2. Imported threat events into MISP.
+3. Cross-referenced IOCs against lab datasets.
+
+**Findings / IOCs:**
+- Yara rule example: detects ransomware hash pattern
+- MISP event: IP 10.0.0.5 flagged
+
+**Response / Mitigation Recommendations:**
+- Deploy Yara rules on endpoints.
+- Update SOC alerts from MISP intelligence.
+
+**Screenshots:**  
+- `Screenshots/yara_rule.png`  
+- `Screenshots/misp_event.png`
