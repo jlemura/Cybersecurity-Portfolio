@@ -5,11 +5,12 @@ This repository showcases my hands-in work in SOC, Cybersecurity Analtics and GR
 ## Industry Certifications & Training
 - CompTIA Security+
 - ITILv4 Foundations
-- ISO 27001 Foundations (SkillFront)
+- [ISO 27001 Foundations (SkillFront)](./ISO27001_Foundations/README.md)
 - Google Cybersecurity Professional
-- Splunk Fundamentals
-- Microsoft SC-900
+- [Splunk Fundamentals](./Splunk/Splunk_README.md)
+- [Microsoft_SC-900](./Microsoft_SC-900/README.md)
 
+  
 ## Tertirary Education
 - **Bachelors Degree** | Science in Information Technology | Majoring in Cybersecurity & Networking    | _University of Technology Sydney_
   
