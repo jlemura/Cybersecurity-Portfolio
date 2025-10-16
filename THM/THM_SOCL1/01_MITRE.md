@@ -21,10 +21,6 @@
 **MITRE Mapping:** See above techniques
 
 **Screenshots:**  
-- `Screenshots/mitre_matrix.png` – ATT&CK matrix highlighted  
-- `Screenshots/mitre_detection.png` – example detection
-
-
 <img width="2474" height="1280" alt="501889011-b0f5476b-8a95-4834-92e7-f4c4ab9fae9d" src="https://github.com/user-attachments/assets/9c0fad72-bc37-4d63-8450-759ba7332fb8" />
 
 
