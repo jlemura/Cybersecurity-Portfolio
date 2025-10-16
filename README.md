@@ -17,5 +17,5 @@ This repository showcases my hands-in work in SOC, Cybersecurity Analtics and GR
 
 
 ## Contents
-- [THM/THM_SOCL1)
+- [SOC Level 1](./THM/THM_SOCL1/THM_SOCL1_README.md) – Full beginner-level SOC path
 - [SOC Level 2](./THM/SOC_L2/README.md) – High-impact modules documented
