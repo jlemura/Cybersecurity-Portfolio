@@ -1,7 +1,6 @@
-# Threat Intelligence – Yara & MISP
+# Threat Intelligence
 
 **Source:** TryHackMe SOC Level 1 – Module: Cyber Threat Intelligence  
-**Room(s):** Yara (14), MISP (16)
 
 **Objective:** Detect threats using Yara rules and analyze intelligence in MISP.
 
