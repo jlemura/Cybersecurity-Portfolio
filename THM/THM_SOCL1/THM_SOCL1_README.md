@@ -1,23 +1,23 @@
-# TryHackMe SOC Level 1
+# TryHackMe SOC Level 2
 
-This folder contains my full documentation and screenshots for all 8 modules of the TryHackMe SOC Level 1 path.  
-Each module demonstrates foundational SOC skills, including log analysis, incident response, network monitoring, EDR basics, and Active Directory fundamentals.
+This folder contains my full documentation and screenshots for all 8 modules of the TryHackMe SOC Level 2 path.  
+Each module demonstrates applied SOC skills, including threat hunting, SIEM analysis, endpoint investigation, phishing analysis, and more.
 
 ## Modules Completed
 
-1. [01_Introduction](./01_Introduction.md) – Overview of SOC operations and basic security concepts.  
-2. [02_LogAnalysis](./02_LogAnalysis.md) – Analyzing logs to detect suspicious activity.  
-3. [03_IncidentResponse](./03_IncidentResponse.md) – Triage, containment, and post-incident review.  
-4. [04_NetworkMonitoring](./04_NetworkMonitoring.md) – Monitoring network traffic and identifying anomalies.  
-5. [05_EDR_Basics](./05_EDR_Basics.md) – Endpoint detection and investigation basics.  
-6. [06_AD_Fundamentals](./06_AD_Fundamentals.md) – Introduction to Active Directory and identity monitoring.  
-7. [07_ThreatHunting](./07_ThreatHunting.md) – Searching for threats proactively across logs and endpoints.  
-8. [08_Capstone](./08_Capstone.md) – Final exercise consolidating all SOC L1 skills in a simulated environment.
+1. [01_MITRE](./01_MITRE.md) – MITRE & Cyber Defence Frameworks documentation.  
+2. [02_Yara_MISP](./02_Yara_MISP.md) – Threat intelligence using Yara rules and MISP.  
+3. [03_Wireshark_Traffic](./03_Wireshark_Traffic.md) – Network traffic analysis with Wireshark.  
+4. [04_Sysmon_Wazuh](./04_Sysmon_Wazuh.md) – Endpoint monitoring using Sysmon and Wazuh.  
+5. [05_Splunk_SIEM](./05_Splunk_SIEM.md) – Splunk SIEM queries, dashboards, and alerting.  
+6. [06_Autopsy_Incident](./06_Autopsy_Incident.md) – Digital forensics investigation using Autopsy.  
+7. [07_Phishing_Analysis](./07_Phishing_Analysis.md) – Phishing email analysis and threat detection.  
+8. [08_Capstone_Challenges](./08_Capstone_Challenges.md) – Final exercises consolidating SOC L2 skills.
 
 ## Screenshots
-All screenshots are stored in the `Screenshots/` folder in this directory.  
+All screenshots are stored in the `Screenshots/` folder within this directory.  
 Each module Markdown references its relevant screenshots using relative paths.
 
 ## Notes
 - Each module includes objectives, tools used, step-by-step actions, key findings, MITRE mapping, and screenshots.  
-- Completing all modules demonstrates **comprehensive SOC Level 1 skills**, ready for entry-level SOC roles.
+- Completing all modules demonstrates **comprehensive SOC Level 2 skills** for professional SOC roles.
