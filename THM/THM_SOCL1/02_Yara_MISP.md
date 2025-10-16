@@ -1,4 +1,4 @@
-# Threat Intelligence
+# Yara_MISP
 
 **Source:** TryHackMe SOC Level 1 – Module: Cyber Threat Intelligence  
 
@@ -20,11 +20,6 @@
 **Screenshots:**  
 - `Screenshots/yara_rule.png`  
 - `Screenshots/misp_event.png`
-
-
-
-<img width="2487" height="1272" alt="image" src="https://github.com/user-attachments/assets/6d6e7b06-957b-4a6e-99f1-c761626f8876" />
-<img width="2488" height="1262" alt="image" src="https://github.com/user-attachments/assets/298525bd-f286-4024-87fc-d32fc56f781c" />
 
 <img width="740" height="440" alt="image" src="https://github.com/user-attachments/assets/03a7e5fb-a261-497a-b57d-10283f617299" />
 
