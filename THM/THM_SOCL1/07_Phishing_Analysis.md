@@ -14,15 +14,6 @@
 
 ---
 
-## Findings / IOCs
-> **Note:** Replace these placeholders with the actual lab findings.
-
-- **Sender:** spoofed@badsender.com  
-- **Malicious URL:** http://malicious.example  
-- **Attachment hash:** abcd1234  
-
----
-
 ## Response / Mitigation
 - Quarantine the suspicious email.  
 - Block the sender at the mail gateway.  
