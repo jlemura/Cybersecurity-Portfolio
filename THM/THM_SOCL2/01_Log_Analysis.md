@@ -1,24 +1,49 @@
-## 01_Log_Analysis
+# 01_Log_Analysis
 
 **Source:** TryHackMe SOC Level 2 – Module: Log Analysis  
 **Room:** Log Operations
 
-**Objective:** Analyze logs to detect anomalies and potential threats.
+**Objective:**  
+Collect, analyze, and interpret system and application logs to detect anomalies and potential threats.
 
-**Steps Performed:**
-1. Collected and reviewed various system and application logs.
-2. Identified anomalous entries indicating potential security incidents.
-3. Documented findings for SOC reporting.
+---
 
-**Findings / IOCs:**
-- Suspicious login attempts from unknown IPs
-- Unusual application errors
+## Methodology
 
-**Response / Mitigation Recommendations:**
-- Escalate incidents to SOC team.
-- Block suspicious IP addresses.
-- Configure alerts for repeated anomalies.
+1. Collected lab logs from system, application, and security sources.  
+2. Parsed and filtered logs to detect suspicious patterns.  
+3. Documented anomalous events for SOC reporting.  
+4. Validated findings against lab scenarios and known threat indicators.
 
-**Screenshots:**  
-- `Screenshots/log_analysis_1.png`  
-- `Screenshots/log_analysis_2.png`
+---
+
+## Key Findings / Indicators of Compromise (IOCs)
+
+| Tool | Example IOC | Description |
+|------|-------------|-------------|
+| Syslog | Multiple failed logins from unknown IP | Detected brute force attempts |
+| App Logs | Service crashes outside normal operations | Potential compromise or misconfiguration |
+
+---
+
+## Response and Mitigation Recommendations
+
+- Escalate incidents for investigation.  
+- Block malicious IPs and monitor for repeated activity.  
+- Configure alerts for anomalous events in SIEM.  
+- Retain and correlate logs for future detection.
+
+---
+
+## Screenshots
+
+
+---
+
+## Summary
+
+Demonstrates ability to:
+
+- Collect, parse, and analyze logs.  
+- Identify suspicious events and IOCs.  
+- Document and escalate incidents within SOC workflows.
