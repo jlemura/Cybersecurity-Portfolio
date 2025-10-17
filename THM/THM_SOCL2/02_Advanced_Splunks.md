@@ -1,50 +1,49 @@
 # 02_Advanced_Splunk
 
 **Source:** TryHackMe SOC Level 2 – Module: Advanced Splunk  
-**Rooms:** Splunk: Exploring SPL, Splunk: Setting up a SOC Lab, Splunk: Dashboards and Reports, Splunk: Data Manipulation, Fixit
+**Room:** Splunk: Dashboards and Reports
 
 **Objective:**  
-Develop advanced Splunk skills for SOC investigations — writing SPL queries, building dashboards, transforming and enriching data, and troubleshooting ingestion/pipeline issues.
+Demonstrate advanced Splunk dashboard creation to visualise security telemetry and support SOC operations.
 
 ---
 
 ## Methodology
 
-1. Ingested diverse log types into Splunk and mapped sourcetypes and indexes.  
-2. Developed SPL queries to detect anomalies (failed logins, lateral movement, suspicious command lines).  
-3. Built dashboards and reports to visualise key security metrics (top source IPs, alert counts, user anomalies).  
-4. Performed data manipulation (field extraction, lookups, eventstats/transaction) and fixed ingestion errors.
+1. Loaded lab logs into Splunk.  
+2. Created dashboards showing top failed login sources and user anomalies.  
+3. Applied filters and visualisations to highlight critical events.  
+4. Validated dashboard metrics against lab findings.
 
 ---
 
 ## Key Findings / Indicators of Compromise (IOCs)
 
-> Replace with actual Splunk query outputs and artifacts.
-
 | Tool | Example IOC | Description |
 |------|-------------|-------------|
-| Splunk SPL | `index=security | stats count by src_ip` shows `10.10.10.10` with high fail count | Indicative of brute-force |
-| Saved Search / Dashboard | Spike in failed login rate at 2025-XX-XX | Correlates with suspicious events in endpoint logs |
+| Splunk Dashboard | Spike in failed logins from IP `10.10.10.10` | Possible brute force attempt |
+| Splunk Dashboard | Admin user account anomalies | Indicates potential compromise or misuse |
 
 ---
 
 ## Response & Mitigation Recommendations
 
-- Configure saved searches and alert throttling for high-fidelity alerts.  
-- Implement scheduled lookups/enrichment for IP reputation and user context.  
-- Document dashboards for SOC on-call and shift handover.  
-- Troubleshoot and fix ingest pipeline issues to ensure full visibility.
+- Configure alerts on critical spikes (failed logins, anomalous accounts).  
+- Share dashboards with SOC team for monitoring.  
+- Ensure logging is complete and dashboards refreshed regularly.
 
 ---
 
 ## Screenshots
 
-`Screenshots/splunk_spl_query.png`  
-`Screenshots/splunk_dashboard_report.png`  
-`Screenshots/splunk_data_manipulation.png`
+- `Screenshots/splunk_dashboard.png`
 
 ---
 
 ## Summary
 
-This module demonstrates advanced Splunk capability: creating detection queries, building dashboards for SOC operations, and maintaining reliable ingestion and data quality for investigations.
+Demonstrates ability to:
+
+- Build and customise advanced Splunk dashboards.  
+- Detect anomalous user and login activity.  
+- Integrate Splunk visualisations into SOC monitoring and reporting workflows.
