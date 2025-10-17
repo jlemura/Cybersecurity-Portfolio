@@ -10,10 +10,10 @@ Identify suspicious events and potential security incidents by leveraging Splunk
 
 ## Methodology
 
-1. Ingested lab logs into **Splunk** for centralized analysis.  
-2. Ran targeted search queries to detect anomalies such as failed logins and brute-force attempts.  
+1. Ingested lab logs into **Splunk** for centralized log analysis.  
+2. Ran targeted search queries to detect anomalies such as repeated failed logins and brute-force attempts.  
 3. Built dashboards to visualize top source IPs, user account activity, and suspicious events.  
-4. Documented IOCs and escalated relevant findings for SOC monitoring and response.  
+4. Documented IOCs and escalated relevant findings for SOC monitoring and response.
 
 ---
 
@@ -31,29 +31,29 @@ Identify suspicious events and potential security incidents by leveraging Splunk
 - Block malicious IP addresses at network or firewall level.  
 - Force password reset for affected user accounts.  
 - Configure Splunk alerts for repeated failed logins or abnormal activity patterns.  
-- Integrate findings into SOC workflows for ongoing monitoring and threat detection.  
+- Integrate findings into SOC workflows for ongoing monitoring and threat detection.
 
 ---
 
 ## Screenshots
 
 **Splunk Search – Failed Logins**  
-<img width="1268" height="1304" alt="Splunk Search" src="https://github.com/user-attachments/assets/706204e5-650e-4b3c-a5ee-10d2a9742f81" />
+<img width="1268" height="1304" alt="Splunk search results showing multiple failed login attempts from IP 1.2.3.4 affecting user1 and user2" src="https://github.com/user-attachments/assets/706204e5-650e-4b3c-a5ee-10d2a9742f81" />
 
 **Dashboard – Top Source IPs and Failed Logins**  
-<img width="1595" height="1289" alt="Splunk Dashboard" src="https://github.com/user-attachments/assets/4fdc4453-3ca3-4dd2-a27c-e9dc9b5edb51" />
+<img width="1595" height="1289" alt="Splunk dashboard showing top source IPs generating failed login events and overall login failure trends" src="https://github.com/user-attachments/assets/4fdc4453-3ca3-4dd2-a27c-e9dc9b5edb51" />
 
 **Event Analysis – Brute Force Attempts**  
-<img width="1580" height="1260" alt="Brute Force Events" src="https://github.com/user-attachments/assets/6e68cf6e-a3ae-4fed-8b34-e9da3eb2fbbc" />
+<img width="1580" height="1260" alt="Detailed Splunk event analysis showing failed login timestamps, user accounts affected, and originating IP" src="https://github.com/user-attachments/assets/6e68cf6e-a3ae-4fed-8b34-e9da3eb2fbbc" />
 
-**User Account Login Failures**  
-<img width="1570" height="1264" alt="User Login Failures" src="https://github.com/user-attachments/assets/bcd605c0-fc82-4516-9a09-bf80fd2e5189" />
+**User Account Login Failures Overview**  
+<img width="1570" height="1264" alt="Visualization of user account login failures including frequency and time of day" src="https://github.com/user-attachments/assets/bcd605c0-fc82-4516-9a09-bf80fd2e5189" />
 
-**Dashboard Overview**  
-<img width="1597" height="1294" alt="Dashboard Overview" src="https://github.com/user-attachments/assets/fc02d199-ad83-438d-8f04-f90b9a17ecd8" />
+**Dashboard Overview – Login Activity**  
+<img width="1597" height="1294" alt="Comprehensive Splunk dashboard showing login activity, failed login trends, and source IP ranking" src="https://github.com/user-attachments/assets/fc02d199-ad83-438d-8f04-f90b9a17ecd8" />
 
 **Detailed Event Log Analysis**  
-<img width="1597" height="1294" alt="Event Log Details" src="https://github.com/user-attachments/assets/c4e838ab-620d-422d-829d-21f42621bb65" />
+<img width="1597" height="1294" alt="Splunk event logs showing detailed failed login records including user, IP, timestamp, and event ID" src="https://github.com/user-attachments/assets/c4e838ab-620d-422d-829d-21f42621bb65" />
 
 ---
 
@@ -62,6 +62,6 @@ Identify suspicious events and potential security incidents by leveraging Splunk
 This module demonstrates the ability to:
 
 - Ingest and analyze security logs using Splunk.  
-- Detect suspicious activity including brute-force attempts and account compromise.  
+- Detect suspicious activity including brute-force login attempts and potential account compromise.  
 - Visualize security events via dashboards for SOC monitoring.  
-- Translate log analysis into actionable mitigation and alerting strategies.
+- Translate log analysis into actionable mitigation strategies and SOC alerts.
