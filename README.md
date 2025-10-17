@@ -4,7 +4,7 @@ This portfolio demonstrates my capabilities in log analysis, threat hunting, det
 This portfolio is intended to demonstrate practical SOC skills for cybersecurity positions. All labs and projects are conducted in controlled environments.
 
 ## Resume: [Resume.pdf](Resume.pdf)  
-## LinkedIn: [linkedin.com/in/josh-lemura]([https://www.linkedin.com/in/josh-lemura](https://www.linkedin.com/in/joshua-lemura-b616a51b5/))  
+## LinkedIn: [Click Me!](https://www.linkedin.com/in/joshua-lemura-b616a51b5/)
 
 
 
