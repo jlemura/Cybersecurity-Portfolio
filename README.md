@@ -20,8 +20,9 @@ This portfolio demonstrates my capabilities in log analysis, threat hunting, det
 
 
 ## 📂 Portfolio Modules & Projects
-- [SOC Level 1](./THM/THM_SOCL1/THM_SOCL1_README.md) – Full beginner-level SOC path
-- [SOC Level 2](./THM/THM_SOCL2/THM_SOCL2_README.md) – High-impact modules documented
+- [SOC Level 1](./THM/THM_SOCL1/THM_SOCL1_README.md) – Full beginner-level SOC path.
+- [SOC Level 2](./THM/THM_SOCL2/THM_SOCL2_README.md) – High-impact modules documented.
+- [Side Projects](./SideProjects/) – Side Projects I have completed and am working on!
 - [Splunk Fundamentals](./Splunk/Splunk_README.md)
 - [Microsoft_SC-900](./Microsoft_SC-900/README.md)
 - [ISO 27001 Foundations (SkillFront)](./ISO27001_Foundations/README.md)
