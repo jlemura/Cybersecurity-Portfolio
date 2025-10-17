@@ -3,8 +3,8 @@ Welcome to my **Portfolio**, showcasing hands-on cybersecurity skills developed 
 This portfolio demonstrates my capabilities in log analysis, threat hunting, detection engineering, Splunk dashboards, malware analysis, and phishing investigations.
 This portfolio is intended to demonstrate practical SOC skills for cybersecurity positions. All labs and projects are conducted in controlled environments.
 
-## - Resume: [Resume.pdf](Resume.pdf)  
-## - LinkedIn: [linkedin.com/in/josh-lemura](https://www.linkedin.com/in/josh-lemura)  
+## Resume: [Resume.pdf](Resume.pdf)  
+## LinkedIn: [linkedin.com/in/josh-lemura]([https://www.linkedin.com/in/josh-lemura](https://www.linkedin.com/in/joshua-lemura-b616a51b5/))  
 
 
 
