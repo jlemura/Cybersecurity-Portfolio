@@ -1,6 +1,6 @@
 # 05_Threat_Emulation
 
-##**COMING SOON**
+## **COMING SOON**
 
 **Source:** TryHackMe SOC Level 2 – Module: Threat Emulation  
 **Room:** Atomic Red Team
