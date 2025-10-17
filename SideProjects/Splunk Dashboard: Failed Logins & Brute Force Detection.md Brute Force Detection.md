@@ -1,8 +1,5 @@
 # 01_Splunk_Failed_Logins
 
-**Source:** TryHackMe SOC Level 2 – Mini-Project  
-**Room:** Splunk: Dashboards and Reports
-
 **Objective:**  
 Visualize and analyze failed login attempts to detect brute force attempts and account anomalies.
 
@@ -13,7 +10,6 @@ Visualize and analyze failed login attempts to detect brute force attempts and a
 1. Loaded lab or sample logs into Splunk.  
 2. Created searches for failed login attempts.  
 3. Built dashboard panels to show top source IPs and accounts with the most failed logins.  
-4. Validated dashboard metrics against lab findings.
 
 ---
 
