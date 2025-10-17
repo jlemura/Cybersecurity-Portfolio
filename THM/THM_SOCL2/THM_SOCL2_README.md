@@ -5,7 +5,7 @@ Each module demonstrates applied SOC skills, including threat hunting, SIEM anal
 
 ## Modules Completed
 
-1. [01_ThreatHunting](./01_ThreatHunting.md) – Proactive detection of anomalous activity across endpoints and network.  
+1. [01_Log_Analysis](./THM/THM_SOCL2/01_Log_Analysis.md) – Proactive detection of anomalous activity across endpoints and network.  
 2. [02_Advanced_SIEM](./02_Advanced_SIEM.md) – Building detection rules, alerting, and log analysis.  
 3. [03_EDR_Endpoint](./03_EDR_Endpoint.md) – Investigating endpoints and identifying malicious activity.  
 4. [04_AD_Identity](./04_AD_Identity.md) – Active Directory and identity threat detection.  
