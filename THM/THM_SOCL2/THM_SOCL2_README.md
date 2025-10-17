@@ -12,8 +12,3 @@ Each module demonstrates applied SOC skills, including threat hunting, SIEM anal
 5. [05_MalwareAnalysis](./05_MalwareAnalysis.md) – Static/dynamic malware analysis and documentation.  
 6. [06_NetworkForensics](./06_NetworkForensics.md) – Capturing and analyzing network traffic.  
 7. [07_CloudMonitoring](./07_CloudMonitoring.md) – Monitoring cloud logs and cloud-based threats.  
-
-
-## Notes
-- Each module includes objectives, tools used, step-by-step actions, key findings, MITRE mapping, and screenshots.  
-- Completing all modules demonstrates **comprehensive SOC Level 2 skills** for professional SOC roles.
