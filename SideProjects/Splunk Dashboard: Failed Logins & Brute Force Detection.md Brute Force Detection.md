@@ -1,46 +1,6 @@
-# 01_Splunk_Failed_Logins
+# Splunk Dashboard Example
 
-**Objective:**  
-Visualize and analyze failed login attempts to detect brute force attempts and account anomalies.
+Using Dummy Data from a TryHackMe, I created the following dashboard that displays various charts on Built and Failed user connections, connections per user, connections per country and overall user access numbers.
 
----
-
-## Methodology
-
-1. Loaded lab or sample logs into Splunk.  
-2. Created searches for failed login attempts.  
-3. Built dashboard panels to show top source IPs and accounts with the most failed logins.  
-
----
-
-## Key Findings / Indicators of Compromise (IOCs)
-
-| Tool | Example IOC | Description |
-|------|-------------|-------------|
-| Splunk Dashboard | Multiple failed logins from IP `10.10.10.10` | Potential brute force attempt |
-| Splunk Dashboard | Admin user anomaly | Account showing unusual login behaviour |
-
----
-
-## Response & Mitigation Recommendations
-
-- Configure alerts for repeated failed logins.  
-- Monitor and block suspicious IPs.  
-- Share dashboards with SOC team for real-time monitoring.
-
----
-
-## Screenshots
-
-- `Screenshots/splunk_failed_logins_dashboard.png`
-
----
-
-## Summary
-
-Demonstrates ability to:
-
-- Ingest logs into Splunk.  
-- Create searches and dashboards.  
-- Identify anomalous login behaviour.  
-- Produce actionable visualizations for SOC monitoring.
+<img width="2542" height="1016" alt="image" src="https://github.com/user-attachments/assets/3177da65-1708-423a-8897-2c6b3756b307" />
+<img width="2533" height="942" alt="image" src="https://github.com/user-attachments/assets/60880f5e-a7a8-4c36-895a-81184a9dffdc" />
