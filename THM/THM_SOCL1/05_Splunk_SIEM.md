@@ -37,23 +37,20 @@ Identify suspicious events and potential security incidents by leveraging Splunk
 
 ## Screenshots
 
-**Splunk Search – Failed Logins**  
+**Splunk Main Screen**  
 <img width="1268" height="1304" alt="Splunk search results showing multiple failed login attempts from IP 1.2.3.4 affecting user1 and user2" src="https://github.com/user-attachments/assets/706204e5-650e-4b3c-a5ee-10d2a9742f81" />
 
-**Dashboard – Top Source IPs and Failed Logins**  
+**Splunk Dashboard**  
 <img width="1595" height="1289" alt="Splunk dashboard showing top source IPs generating failed login events and overall login failure trends" src="https://github.com/user-attachments/assets/4fdc4453-3ca3-4dd2-a27c-e9dc9b5edb51" />
 
-**Event Analysis – Brute Force Attempts**  
+**Source Import**  
 <img width="1580" height="1260" alt="Detailed Splunk event analysis showing failed login timestamps, user accounts affected, and originating IP" src="https://github.com/user-attachments/assets/6e68cf6e-a3ae-4fed-8b34-e9da3eb2fbbc" />
 
-**User Account Login Failures Overview**  
+**Source Import**  
 <img width="1570" height="1264" alt="Visualization of user account login failures including frequency and time of day" src="https://github.com/user-attachments/assets/bcd605c0-fc82-4516-9a09-bf80fd2e5189" />
 
-**Dashboard Overview – Login Activity**  
+**Imported Source Analysis**  
 <img width="1597" height="1294" alt="Comprehensive Splunk dashboard showing login activity, failed login trends, and source IP ranking" src="https://github.com/user-attachments/assets/fc02d199-ad83-438d-8f04-f90b9a17ecd8" />
-
-**Detailed Event Log Analysis**  
-<img width="1597" height="1294" alt="Splunk event logs showing detailed failed login records including user, IP, timestamp, and event ID" src="https://github.com/user-attachments/assets/c4e838ab-620d-422d-829d-21f42621bb65" />
 
 ---
 
