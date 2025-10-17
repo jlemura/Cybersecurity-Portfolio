@@ -33,8 +33,15 @@ Translate attacker TTPs into Sigma detection rules to enhance SOC detection capa
 ---
 
 ## Screenshots
+Sigma Rule YAML example that is converted using Uncoder IO
+<img width="2538" height="1288" alt="image" src="https://github.com/user-attachments/assets/644443d8-98cf-45be-afe9-d9f56a1d5330" />
 
-- `Screenshots/sigma_rule_example.png`
+Converted using Elastic
+<img width="2548" height="1290" alt="image" src="https://github.com/user-attachments/assets/8eef332b-8984-4d66-9300-016d225c35bb" />
+
+Creating custom sigma rule for task
+<img width="2512" height="1210" alt="image" src="https://github.com/user-attachments/assets/7adff28c-aafc-41c4-8da3-66a5c3bd6aee" />
+
 
 ---
 
