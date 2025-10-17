@@ -6,8 +6,8 @@ Each module demonstrates applied SOC skills, including threat hunting, SIEM anal
 ## Modules Completed
 
 1. [01_Log_Analysis](./01_Log_Analysis.md) – Proactive detection of anomalous activity across endpoints and network.  
-2. [02_Advanced_Splunk](./02_Advanced_Splunk.md) – Building detection rules, alerting, and log analysis.  
-3. [03_Detection_Engineering](./04_Threat_Hunting.md) – Investigating endpoints and identifying malicious activity.  
+2. [02_Advanced_Splunk](./02_Advanced_Splunks.md) – Building detection rules, alerting, and log analysis.  
+3. [03_Detection_Engineering](./03_Detection_Engineering.md) – Investigating endpoints and identifying malicious activity.  
 4. [04_Threat_Hunting](./04_Threat_Hunting.md) – Active Directory and identity threat detection.  
 5. [05_Threat_Emulation](./05_Threat_Emulation.md) – Static/dynamic malware analysis and documentation.  
 6. [06_Malware_Analysis](./06_Malware_Analysis.md) – Capturing and analyzing network traffic.  
